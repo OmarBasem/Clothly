@@ -9,6 +9,7 @@ This is a demo eCommerce mobile app that I have built in 3 days.
 
 ## Technologies Used
 
+* Framework: <b>React Native</b>
 * Programming Language: <b>TypeScript</b>
 * React Style: <b>Functional Components + Hooks</b>
 * State Management: <b>RTK (Redux Toolkit) + Redux-Saga</b>
