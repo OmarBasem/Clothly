@@ -1,5 +1,7 @@
 # Clothly React Native App
 
+[![Build Status](https://app.bitrise.io/app/b508e6c83c5cf07a/status.svg?token=UPOJq4k9mG8XT24dv58YcA&branch=master)](https://app.bitrise.io/app/b508e6c83c5cf07a)
+
 This is a demo eCommerce mobile app that I have built in 4 days.
 
 ## Technologies Used
