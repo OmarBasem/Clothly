@@ -2,7 +2,7 @@
 
 [![Build Status](https://app.bitrise.io/app/b508e6c83c5cf07a/status.svg?token=UPOJq4k9mG8XT24dv58YcA&branch=master)](https://app.bitrise.io/app/b508e6c83c5cf07a)
 
-This is a demo eCommerce mobile app that I have built in 4 days.
+This is a demo eCommerce mobile app that I have built in 3 days.
 
 * iOS build: https://app.bitrise.io/artifact/133058262/p/dbffc3e244e38cea97599fea30feaa86
 * Android build: https://app.bitrise.io/artifact/133058259/p/bc8bf93dff99269ba3731e2edf71bbdf
@@ -99,13 +99,13 @@ Detox tests:
 ---> iOS
 
 * Start a simulator (iPhone 13 Pro) and run the app on it
-* Build iOS tests: `detox build --configuration ios.sim.debug`
+* Build iOS detox tests: `detox build --configuration ios.sim.debug`
 * Run iOS detox tests: `detox test --configuration ios.sim.debug`
 
 ---> Android
 
 * Start an emulator (Pixel 4 API 30) and run the app on it
-* Build Android tests: `detox build --configuration android.emu.debug`
+* Build Android detox tests: `detox build --configuration android.emu.debug`
 * Run Android detox tests: `detox test --configuration android.emu.debug`
 
 
