@@ -1,0 +1,1006 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Screens rendering ProductScreen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  testID="ProductScreen"
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 8,
+        "paddingTop": 8,
+        "width": "96%",
+      }
+    }
+    testID="TopBar"
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="MEN"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "grey",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "#1C284F",
+              "textDecorationLine": "underline",
+            },
+          ]
+        }
+      >
+        MEN
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="WOMEN"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "grey",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            Object {},
+          ]
+        }
+      >
+        WOMEN
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="KIDS"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "grey",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            Object {},
+          ]
+        }
+      >
+        KIDS
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="FTW"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "grey",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            Object {},
+          ]
+        }
+      >
+        FTW
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="ACCESSORIES"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "grey",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            Object {},
+          ]
+        }
+      >
+        ACCESSORIES
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="SEARCH"
+      selectionColor="#1C284F"
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderColor": "grey",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "fontSize": 16,
+          "height": 40,
+          "marginBottom": 4,
+          "paddingLeft": 8,
+          "paddingRight": 32,
+          "width": 720,
+        }
+      }
+      testID="SearchBar"
+      value=""
+    />
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": "grey",
+            "fontSize": 20,
+          },
+          Object {
+            "position": "absolute",
+            "right": 8,
+            "top": 8,
+            "zIndex": 1,
+          },
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 20,
+      }
+    }
+    style={
+      Object {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      }
+    }
+    testID="productScroll"
+  >
+    <View>
+      <View
+        testID="productImage"
+      >
+        <View
+          onLayout={[Function]}
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "alignSelf": "center",
+                      "borderColor": "lightgrey",
+                      "borderWidth": 1,
+                      "height": 750,
+                      "width": 712.5,
+                    },
+                  ]
+                }
+              >
+                <FastImageView
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "uri": "https://www.juniorcouture.ae/dw/image/v2/BGHV_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdc8636f2/images/10014476/KEN-K25100_1.jpg?sw=800&sh=800",
+                    }
+                  }
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <Modal
+            hardwareAccelerated={false}
+            onRequestClose={[Function]}
+            transparent={true}
+            visible={false}
+          />
+        </View>
+        <MockedMaterialIcons
+          name="fullscreen"
+          onPress={[Function]}
+          size={28}
+          style={
+            Object {
+              "bottom": 4,
+              "position": "absolute",
+              "right": 4,
+            }
+          }
+          testID="openImage"
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#646464",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginTop": 16,
+          }
+        }
+      >
+        Tiger Medium Red
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#646464",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginTop": 16,
+            },
+            Object {
+              "fontWeight": "normal",
+              "marginTop": 0,
+            },
+          ]
+        }
+      >
+        AED 
+        250
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#646464",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginTop": 16,
+              },
+              Object {
+                "fontWeight": "200",
+              },
+            ]
+          }
+        >
+          Available Sizes: 
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "color": "#646464",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginTop": 16,
+              },
+              Object {
+                "flexDirection": "row",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "marginRight": 12,
+                "opacity": 1,
+              }
+            }
+            testID="size-0"
+          >
+            <Text
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "color": "#646464",
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              S
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "marginRight": 12,
+                "opacity": 1,
+              }
+            }
+            testID="size-1"
+          >
+            <Text
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "color": "#646464",
+                    "fontSize": 20,
+                  },
+                  null,
+                ]
+              }
+            >
+              M
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "marginRight": 12,
+                "opacity": 1,
+              }
+            }
+            testID="size-2"
+          >
+            <Text
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "color": "#646464",
+                    "fontSize": 20,
+                  },
+                  null,
+                ]
+              }
+            >
+              X
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "marginRight": 12,
+                "opacity": 1,
+              }
+            }
+            testID="size-3"
+          >
+            <Text
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "color": "#646464",
+                    "fontSize": 20,
+                  },
+                  null,
+                ]
+              }
+            >
+              XL
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#646464",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "marginTop": 16,
+              },
+              Object {
+                "fontWeight": "200",
+              },
+            ]
+          }
+        >
+          Colors:
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#C73C3C",
+                "borderColor": "lightgrey",
+                "borderRadius": 4,
+                "borderWidth": 4,
+                "height": 30,
+                "marginRight": 8,
+                "opacity": 1,
+                "width": 30,
+              }
+            }
+            testID="color-0"
+          />
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#262626",
+                "borderColor": "lightgrey",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "height": 30,
+                "marginRight": 8,
+                "opacity": 1,
+                "width": 30,
+              }
+            }
+            testID="color-1"
+          />
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#C1CFD0",
+                "borderColor": "lightgrey",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "height": 30,
+                "marginRight": 8,
+                "opacity": 1,
+                "width": 30,
+              }
+            }
+            testID="color-2"
+          />
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "lightgrey",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "height": 30,
+                "marginRight": 8,
+                "opacity": 1,
+                "width": 30,
+              }
+            }
+            testID="color-3"
+          />
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#1E4B4A",
+                "borderColor": "lightgrey",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "height": 30,
+                "marginRight": 8,
+                "opacity": 1,
+                "width": 30,
+              }
+            }
+            testID="color-4"
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#E5E5E6",
+            "borderRadius": 4,
+            "height": 50,
+            "marginTop": 16,
+            "width": "100%",
+          }
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#646464",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginTop": 16,
+            },
+            Object {
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        DESCRIPTION
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#646464",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginTop": 16,
+            },
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        Opt for a bold look with this T-shirt. With its iconic Tiger print on the chest, it is sure to turn heads. Pair it with jogging trousers and sneakers for a casual sportswear look.
+Short-slleved T-shirt.
+Round neck.
+Tiger embroidered on the chest.
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "lightgrey",
+            "height": 1,
+            "marginTop": 16,
+            "width": "100%",
+          }
+        }
+      />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#646464",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "marginTop": 16,
+            },
+            Object {
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        SEE MORE PRODUCTS
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "marginTop": 16,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="more-0"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderColor": "lightgrey",
+                  "borderWidth": 0.5,
+                  "height": 187.5,
+                  "width": 150,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="more-1"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderColor": "lightgrey",
+                  "borderWidth": 0.5,
+                  "height": 187.5,
+                  "width": 150,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="more-2"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderColor": "lightgrey",
+                  "borderWidth": 0.5,
+                  "height": 187.5,
+                  "width": 150,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="more-3"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderColor": "lightgrey",
+                  "borderWidth": 0.5,
+                  "height": 187.5,
+                  "width": 150,
+                },
+              ]
+            }
+          >
+            <FastImageView
+              resizeMode="cover"
+              source={
+                Object {
+                  "uri": undefined,
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

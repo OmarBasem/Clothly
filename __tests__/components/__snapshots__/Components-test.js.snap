@@ -1,0 +1,479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing components rendering Back button renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  hitSlop={
+    Object {
+      "right": 40,
+    }
+  }
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginLeft": 8,
+      "opacity": 1,
+    }
+  }
+  testID="back"
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "#1C284F",
+          "fontSize": 40,
+        },
+        undefined,
+        Object {
+          "fontFamily": "Ionicons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Testing components rendering Product renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "borderColor": "lightgrey",
+      "borderWidth": 1,
+      "marginBottom": 8,
+      "marginLeft": 12,
+      "opacity": 1,
+      "padding": 8,
+      "width": 337.5,
+    }
+  }
+  testID="item-undefined-undefined"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "height": 450,
+          "width": 300,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "https://www.juniorcouture.ae/dw/image/v2/BGHV_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdc8636f2/images/10014476/KEN-K25100_1.jpg?sw=800&sh=800",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+      }
+    }
+    testID="title-undefined-undefined"
+  >
+    Tiger Medium Red
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+      }
+    }
+  >
+    AED 
+    250
+  </Text>
+</View>
+`;
+
+exports[`Testing components rendering ProductRow renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "width": 750,
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderColor": "lightgrey",
+        "borderWidth": 1,
+        "marginBottom": 8,
+        "marginLeft": 12,
+        "opacity": 1,
+        "padding": 8,
+        "width": 337.5,
+      }
+    }
+    testID="item-undefined-0"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "height": 450,
+            "width": 300,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="contain"
+        source={
+          Object {
+            "uri": "https://www.juniorcouture.ae/dw/image/v2/BGHV_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdc8636f2/images/10014476/KEN-K25100_1.jpg?sw=800&sh=800",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+      testID="title-undefined-0"
+    >
+      Tiger Medium Red
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+    >
+      AED 
+      250
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Testing components rendering SearchBar renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="SEARCH"
+    selectionColor="#1C284F"
+    style={
+      Object {
+        "alignSelf": "center",
+        "borderColor": "grey",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "fontSize": 16,
+        "height": 40,
+        "marginBottom": 4,
+        "paddingLeft": 8,
+        "paddingRight": 32,
+        "width": 720,
+      }
+    }
+    testID="SearchBar"
+    value=""
+  />
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      Array [
+        Object {
+          "color": "grey",
+          "fontSize": 20,
+        },
+        Object {
+          "position": "absolute",
+          "right": 8,
+          "top": 8,
+          "zIndex": 1,
+        },
+        Object {
+          "fontFamily": "Ionicons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Testing components rendering Title renders correctly 1`] = `
+<Text
+  numberOfLines={1}
+  style={
+    Array [
+      Object {
+        "fontSize": 28,
+        "fontWeight": "600",
+        "textAlign": "left",
+        "zIndex": 100,
+      },
+      Object {
+        "color": "#1C284F",
+        "textAlign": "center",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Testing components rendering TopBar renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingBottom": 8,
+      "paddingTop": 8,
+      "width": "96%",
+    }
+  }
+  testID="TopBar"
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="MEN"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          Object {},
+        ]
+      }
+    >
+      MEN
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="WOMEN"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          Object {},
+        ]
+      }
+    >
+      WOMEN
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="KIDS"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          Object {},
+        ]
+      }
+    >
+      KIDS
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="FTW"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          Object {},
+        ]
+      }
+    >
+      FTW
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="ACCESSORIES"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "grey",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          Object {},
+        ]
+      }
+    >
+      ACCESSORIES
+    </Text>
+  </View>
+</View>
+`;

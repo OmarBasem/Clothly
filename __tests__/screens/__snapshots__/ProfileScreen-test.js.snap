@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Screens rendering ProfileScreen renders correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+  testID="ProfileScreen"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "marginTop": 16,
+          "padding": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "alignSelf": "center",
+              "borderRadius": 150,
+              "height": 300,
+              "marginBottom": 8,
+              "width": 300,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Account Info
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Feather",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderColor": "lightgrey",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginTop": 8,
+            "padding": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          First Name: 
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Morty
+          </Text>
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Last Name: 
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Smith
+          </Text>
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Gender: 
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Male
+          </Text>
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Location: 
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Citadel of Ricks
+          </Text>
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Status: 
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Alive
+          </Text>
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          Created: 
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            11
+             / 
+            2017
+          </Text>
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "marginTop": 16,
+          "padding": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Your Orders
+        </Text>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Feather",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderColor": "lightgrey",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "marginTop": 8,
+            "padding": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 14,
+            }
+          }
+        >
+          You have no recent orders.
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderColor": "grey",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "marginTop": 28,
+          "opacity": 1,
+          "padding": 8,
+          "width": "50%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "textAlign": "center",
+          }
+        }
+      >
+        Logout
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
