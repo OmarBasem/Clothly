@@ -4,6 +4,9 @@
 
 This is a demo eCommerce mobile app that I have built in 4 days.
 
+* iOS build: https://app.bitrise.io/artifact/133058262/p/dbffc3e244e38cea97599fea30feaa86
+* Android build: https://app.bitrise.io/artifact/133058259/p/bc8bf93dff99269ba3731e2edf71bbdf
+
 ## Technologies Used
 
 * Programming Language: <b>TypeScript</b>
@@ -56,8 +59,8 @@ The following steps show the build process of the app.
 * Firstly, I built the app locally and tested it for the following: ios-debug-simulator, ios-debug-device, ios-release-simulator, ios-release-device, android-debug-emulator, android-debug-device, android-release-emulator, android-release-device
 * Integrated the GitHub repo with Bitrise
 * Built, signed and deployed iOS and Android builds using Bitrise
-* iOS build: https://app.bitrise.io/artifact/132261407/p/9d4a71e255b4a2313e168d6073a7a578
-* Android build: https://app.bitrise.io/artifact/132261404/p/36f22386f27f03f772f391d7e45aff43
+* iOS build: https://app.bitrise.io/artifact/133058262/p/dbffc3e244e38cea97599fea30feaa86
+* Android build: https://app.bitrise.io/artifact/133058259/p/bc8bf93dff99269ba3731e2edf71bbdf
 
 ## STEP 7
 
